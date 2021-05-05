@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>链接标签</title>
+</head>
+<body>
+<!--使用name作为标记-->
+<a name="top">顶部</a>
+<br/>
+<!--
+href: 必填，表示要跳转到的页面
+-->
+<a href="我的第一个网页.html"target="_blank">点击跳转1</a>
+<br/>
+<a href="https://www.baidu.com"target="_blank">点击跳转2</a>
+<br/>
+点击图片跳转
+<a href="我的第一个网页.html"target="_blank">
+    <br/>
+    <img src="../resource/image/1.jpg" alt="Jasonlee"title="Jasonlee"width="300"height="300">
+</a>
+
+
+
+
+<!--锚链接-->
+<!--
+1.需要一个锚标签
+2.跳转到标记
+#
+-->
+<br/>
+<a href="#top">回到顶部</a>
+<a href="图像标签.html#down"></a>
+
+<!--功能性标签-->
+<!--
+邮件链接：mailto：
+-->
+<a href="mailto:29477426352qq.com">联系我 </a>
+<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2947742635&site=qq&menu=yes">
+    <img border="0" src="http://wpa.qq.com/pa?p=2:2947742635:53" alt="点击！在线咨询" title="点击！在线咨询"/></a>
+</body>
+</html>

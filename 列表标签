@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表标签</title>
+</head>
+<body>
+<!--有序列表-->
+<ol>
+    <li>Java</li>
+    <li>Python</li>
+    <li>运维</li>
+    <li>前端</li>
+    <li>后端</li>
+</ol>
+<hr/>
+<!--无序列表-->
+<ul>
+    <li>Java</li>
+    <li>Python</li>
+    <li>运维</li>
+    <li>前端</li>
+    <li>后端</li>
+</ul>
+<hr/>
+<dl>
+    <dt>学科</dt>
+    <dd>Java</dd>
+    <dd>Python</dd>
+    <dd>运维</dd>
+    <dd>前端</dd>
+    <dd>后端</dd>
+    <dt>位置</dt>
+    <dd>邵阳</dd>
+    <dd>邵东</dd>
+</dl>
+
+</body>
+</html>

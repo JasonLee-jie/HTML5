@@ -1,0 +1,19 @@
+<!--DOCTYPE:告诉浏览器，我们要使用什么规范-->
+<!DOCTYPE html>
+
+<html lang="en">
+<!--head标签代表网页头部-->
+<head>
+    <!--meta描述性标签，它用来描述我们网站的一些信息-->
+    <!--meta一般用来做SEO-->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Jasonlee">
+    <meta name="description"content="学习Java"
+    <!--title网页标题-->
+    <title>Jasonlee</title>
+</head>
+<!--body标签代表网页主体-->
+<body>
+hello！
+</body>
+</html>

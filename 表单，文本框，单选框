@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录/注册</title>
+</head>
+<body>
+<h1>注册</h1>
+<!--表单form-->
+<!--
+action:表单提交的位置，可以是网站，也可以是一个请求处理地址
+method:post,get提交方式
+    get方式提交：我们可以在url中看到我们提交的信息，不安全，高效
+    post方式提交：比较安全，传输大文件
+    value="Jasonlee"  默认初始值
+    maxlength="10"    最长能写几个字符
+    size="30"          文本框的长度
+
+-->
+<form action="我的第一个网页.html" method="get"></form>
+<!--文本输入框：input type="text"-->
+<p>名字：<input type="text"name="username"maxlength="10"size="30"placeholder="请输入用户名"></p>
+<!--密码框：input type="password"-->
+<p>密码：<input type="password"name="pwd"placeholder="请输入密码"required></p>
+
+<!--单选框标签
+input type="radio"
+value :单选框的值
+name :表示组
+-->
+<p>性别：
+    <input type="radio"value="boy"name="sex"checked>男
+    <input type="radio"value="girl"name="sex">女
+</p>
+<!--
+多选框
+input type="checkbox"
+-->
+<p>爱好：
+    <input type="checkbox"value="sleep"name="hobby">睡觉
+    <input type="checkbox"value="code"name="hobby"checked>敲代码
+    <input type="checkbox"value="chat"name="hobby">聊天
+    <input type="checkbox"value="game"name="hobby">玩游戏
+</p>
+<!--按钮
+input type="button"普通按钮
+input type="image"图像按钮
+input type="submit"提交按钮
+input type="reset"重置
+-->
+<p>按钮：
+    <input type="button"name="btn1"value="点击变长">
+<!--<input type="image"src="../resource/image/1.jpg">-->
+
+</p>
+<!--下拉框，列表框-->
+<p>国家：
+    <select name="列表名称" id="">
+        <option value="china"selected>中国</option>
+        <option value="usa">美国</option>
+        <option value="eth">瑞士</option>
+        <option value="yindu">印度</option>
+    </select>
+</p>
+<!--文本域-->
+<p>反馈：
+    <textarea name="textarea" id="" cols="50" rows="10">文本内容</textarea>
+</p>
+<!--文件域-->
+<p>
+    <input type="file"name="files">
+    <input type="button"value="上传"name="upload">
+</p>
+<!--邮件验证-->
+<p>邮箱：
+    <input type="email"name="email">
+</p>
+<!--URl-->
+<p>URl:
+    <input type="url"name="url">
+</p>
+<!--数字-->
+<p>年龄：
+    <input type="number"name="number"max="100"min="0"step="1">
+</p>
+<!--滑块-->
+<p>音量：
+    <input type="range"name="voice"min="0"max="100"step="1">
+</p>
+<!--搜索框-->
+<p>搜索:
+    <input type="search"name="search">
+</p>
+
+
+
+
+<p>
+    <input type="submit">
+    <input type="reset"value="清空表单">
+</p>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图像标签</title>
+</head>
+<body>
+<!--
+src:  绝对地址
+-->
+
+<img src="../resource/image/1.jpg" alt="Jasonlee"title="Jasonlee"width="300"height="300">
+<a name="#down">down<a/>
+
+
+
+</body>
+</html>

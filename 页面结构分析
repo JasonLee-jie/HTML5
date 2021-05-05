@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>页面结构分析</title>
+</head>
+<body>
+<header><h1>网页头部</h1></header>
+<section><h1>网页主体</h1></section>
+<footer><h1>网页脚部</h1></footer>
+</body>
+</html>
